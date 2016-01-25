@@ -46,7 +46,6 @@ function recorrerMatriz($matriz,$yo, $oponente){
     $pila = array();
     for ($i = 0; $i < 8; $i++) {
          for ($j = 0; $j < 8; $j++) {
-             $stringloco += $matriz[$i][$j];
               if($matriz[$i][$j] == $yo){
                   
                 //echo $matriz[$i][$j].'**********';
